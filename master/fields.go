@@ -1,8 +1,8 @@
 package master
 
 type Field struct {
-  Name string
-  Type uint32
+	Name string
+	Type uint32
 }
 
 // func GetField(label string, idx int) *Field {
