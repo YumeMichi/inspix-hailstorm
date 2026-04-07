@@ -193,7 +193,7 @@ func main() {
 	resInfo := *fResInfo
 	if clientVersion == "" {
 		var err error
-		if clientVersion, err = network.GetPlayVersion(); err != nil {
+		if clientVersion, err = network.GetAppVersion(); err != nil {
 			panic(err)
 		}
 	}
